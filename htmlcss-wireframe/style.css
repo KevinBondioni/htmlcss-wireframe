@@ -1,0 +1,49 @@
+/* Wireframe: lavora con l'inspector aperto, prova lì e poi riporta qui il codice */
+/* resettiamo lo style predefinito dal browser */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* impostiamo il display per smartphone 512px diamo un bordo di 1 px tipo dashed grigio*/
+body {
+    width: 512px;
+    border: 1px dashed gray;
+}
+
+/* settiamo il padding 10 px sopra e sotto 20px laterale diamo un bordo di 2px solid nero*/
+header {
+    padding: 10px 20px;
+    border: 2px solid black;
+}
+
+/*modifichiamo la classe content aggiungengo un padding 20px sopra sotto e 40 px dx/sx */
+.content {
+    padding: 20px 40px;
+}
+
+/*impostiamo alla classe card le seguenti caratteristiche:
+altezza minima di 160px
+margine inferiore 20 px
+un padding denerale di 20px
+un bordo di 2px solid di colore nero */
+.card {
+    min-height: 160px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+/*Solo agli h2 della classe card mettiamo il margine inferiore di 4 px */
+.card h2 {
+    margin-bottom: 4px;
+}
+
+/* per la classe footer:
+PADDING 10px sup/inf 20 px laterale 
+BORDO superiore 2px solid black*/
+.footer {
+    padding: 10px 20px;
+    border-top: 2px solid black;
+}
