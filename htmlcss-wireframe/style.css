@@ -19,6 +19,9 @@ body {
 .header {
     padding: 10px 20px;
     border: 2px solid rgba(0, 0, 0, 1.0);
+    border: 10pz;
+    background-color: #163755;
+    color: white;
 }
 
 /*modifichiamo la classe content aggiungengo un padding 20px sopra sotto e 40 px dx/sx */
@@ -36,11 +39,21 @@ un bordo di 2px solid di colore nero */
     margin-bottom: 20px;
     padding: 20px;
     border: 2px solid black;
+    position: relative
 }
 
 /*Solo agli h2 della classe card mettiamo il margine inferiore di 4 px */
 .card h2 {
     margin-bottom: 4px;
+}
+
+.profile-img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 2px solid black;
+    margin: 15px;
+    width: 50px
 }
 
 /* per la classe footer:
@@ -49,4 +62,6 @@ BORDO superiore 2px solid black*/
 .footer {
     padding: 10px 20px;
     border-top: 2px solid black;
+    background-color: #163755;
+    color: white;
 }
