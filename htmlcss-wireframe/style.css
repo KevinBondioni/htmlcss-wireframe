@@ -8,14 +8,17 @@
 
 /* impostiamo il display per smartphone 512px diamo un bordo di 1 px tipo dashed grigio*/
 body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
     width: 512px;
     border: 1px dashed gray;
+    text-align: center;
 }
 
 /* settiamo il padding 10 px sopra e sotto 20px laterale diamo un bordo di 2px solid nero*/
-header {
+.header {
     padding: 10px 20px;
-    border: 2px solid black;
+    border: 2px solid rgba(0, 0, 0, 1.0);
 }
 
 /*modifichiamo la classe content aggiungengo un padding 20px sopra sotto e 40 px dx/sx */
