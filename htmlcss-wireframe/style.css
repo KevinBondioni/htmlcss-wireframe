@@ -47,21 +47,23 @@ un bordo di 2px solid di colore nero */
 
 /*Solo agli h2 della classe card mettiamo il margine inferiore di 4 px */
 .card h2 {
+    display: inline;
     margin-bottom: 20px;
     color: #091f33d1
 }
 
 .profile-img {
+    display: inline;
     width: 50px;
     border: 2px solid black;
     margin-right: 20px;
-    font-style: "open sans";
 
 }
 
 .card p {
     color: gray;
     font-size: 15px;
+    margin-top: 20px;
 }
 
 /* per la classe footer:
