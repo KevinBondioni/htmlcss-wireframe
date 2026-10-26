@@ -9,22 +9,22 @@
 /* impostiamo il display per smartphone 512px diamo un bordo di 1 px tipo dashed grigio*/
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
     width: 512px;
     border: 1px dashed gray;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.262);
+    background-color: rgba(0, 0, 0, 0.049);
 }
 
 /* settiamo il padding 10 px sopra e sotto 20px laterale diamo un bordo di 2px solid nero*/
 .header {
     padding: 10px 20px;
     border: 10pz;
-    background-color: #163755;
+    background-color: #091f33d1;
     color: white;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
+    text-align: center
 }
+
 
 /*modifichiamo la classe content aggiungengo un padding 20px sopra sotto e 40 px dx/sx */
 .content {
@@ -41,36 +41,27 @@ un bordo di 2px solid di colore nero */
     margin-bottom: 20px;
     padding: 20px;
     border: 2px solid rgba(0, 0, 0, 0.147);
-    position: relative;
     border-radius: 8px;
+    background-color: white;
 }
 
 /*Solo agli h2 della classe card mettiamo il margine inferiore di 4 px */
 .card h2 {
-    margin-bottom: 4px;
-    position: relative;
-    left: -65px;
-    top: 22px;
+    margin-bottom: 20px;
+    color: #091f33d1
+}
+
+.profile-img {
+    width: 50px;
+    border: 2px solid black;
+    margin-right: 20px;
+    font-style: "open sans";
 
 }
 
 .card p {
-    position: relative;
-    top: 23px;
-    text-align: left;
-
-
-}
-
-.profile-img {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    border: 2px solid black;
-    margin: 20px;
-    width: 45px;
-
-
+    color: gray;
+    font-size: 15px;
 }
 
 /* per la classe footer:
@@ -78,9 +69,10 @@ PADDING 10px sup/inf 20 px laterale
 BORDO superiore 2px solid black*/
 .footer {
     padding: 10px 20px;
-    background-color: #163755;
+    background-color: #091f33d1;
     color: white;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-
+    text-align: center;
+    font-size: small;
 }
